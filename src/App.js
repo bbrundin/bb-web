@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Button, Checkbox } from 'semantic-ui-react';
 
 class App extends Component {
   render() {
@@ -12,6 +13,14 @@ class App extends Component {
             <li>howdy</li>
             <li>hoooo</li>
           </ul>
+          <Button>
+            Click Here
+          </Button>
+          <div>
+            <Button primary>Primary</Button>
+            <Button secondary>Secondary</Button>
+          </div>
+          <Checkbox slider />
         </div>
       </div>
     );
