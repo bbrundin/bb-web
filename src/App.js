@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Button, Checkbox } from 'semantic-ui-react';
+import { Button, Checkbox, Image } from 'semantic-ui-react';
+import myimage from './image.png';
 
 class App extends Component {
   render() {
@@ -10,14 +11,15 @@ class App extends Component {
           <p className="App-intro">Britt Brundin</p>
           <p>Hi world</p>
           <ul>
-            <li>howdy</li>
-            <li>hoooo</li>
+            <li>lol</li>
+            <li>awesome</li>
+            <Image src={myimage} size='small' />
           </ul>
           <Button>
             Click Here
           </Button>
           <div>
-            <Button primary>Primary</Button>
+            <Button primary>Hello</Button>
             <Button secondary>Secondary</Button>
           </div>
           <Checkbox slider />
